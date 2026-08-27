@@ -82,10 +82,10 @@ body {
 
 .brand-watermark {
   position: fixed;
-  right: 28px;
+  left: 28px;
   bottom: 24px;
-  width: 240px;
-  max-width: 42vw;
+  width: 340px;
+  max-width: 55vw;
   height: auto;
   opacity: 0.9;
   pointer-events: none;
@@ -94,9 +94,12 @@ body {
 
 @media (max-width: 480px) {
   .brand-watermark {
-    width: 150px;
-    right: 16px;
-    bottom: 14px;
+    position: static;
+    display: block;
+    width: 180px;
+    max-width: 60vw;
+    margin: 28px auto 0;
+    opacity: 1;
   }
 }
 
